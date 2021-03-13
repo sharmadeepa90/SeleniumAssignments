@@ -18,8 +18,7 @@ public class Annotations_06To10 {
 	
 	public static WebDriver driver;
 	OrangeHRMPage OrangeOR;
-	
-	
+
 	//testcase 9 :  Write a method (avoid using Test annotation) to minimize the window.
 	public void MinimizeBrowser() {
 		Point p = driver.manage().window().getPosition();
